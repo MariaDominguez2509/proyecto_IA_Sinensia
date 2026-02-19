@@ -1,5 +1,11 @@
 {
   "mcpServers": {
+    "book-search": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["C:/Users/Admin/IA/mcp_search_server.py"],
+      "env": {}
+    },
     "serena": {
       "type": "stdio",
       "command": "uvx",
